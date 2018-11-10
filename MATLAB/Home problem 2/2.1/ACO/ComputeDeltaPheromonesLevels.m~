@@ -1,0 +1,7 @@
+function [ deltaPheromoneLevel ] = ComputeDeltaPheromonesLevels( pathCollection,pathLengthCollection )
+    
+    for i=1: length(pathCollection)
+        deltaPheromoneLevels = deltaPheromoneL 1 / pathLengthCollection(i);
+    end
+end
+

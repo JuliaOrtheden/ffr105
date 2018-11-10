@@ -1,0 +1,5 @@
+function [ path ] = GeneratePath(pheromoneLevel, visibility, alpha, beta)
+
+path = (pheromoneLevel^alfa * visibility^beta)/sum(pheromoneLevel^2 * visibility^beta); 
+end
+
